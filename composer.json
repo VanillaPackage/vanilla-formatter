@@ -1,0 +1,21 @@
+{
+    "name": "rentalhost/vanilla-vanilla-formatter",
+    "description": "The vanilla-formatter will help you to format some kinds of data.",
+
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^4.7"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Rentalhost\\VanillaFormatter\\": "src/VanillaFormatter/"
+        }
+    },
+
+    "authors": [{
+        "name": "David Rodrigues",
+        "email": "david.rodrigues@rentalhost.net"
+    }],
+    "license": "MIT"
+}

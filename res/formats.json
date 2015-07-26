@@ -1,0 +1,17 @@
+[
+    { "type": "credit-card", "length": 16, "format": "#### #### #### ####" },
+    { "type": "credit-card", "length": 15, "format": "#### ###### #####" },
+    { "type": "credit-card", "length": 14, "format": "#### ###### ####" },
+    { "type": "credit-card", "length": 13, "format": "#### ### ### ###" },
+
+    { "region": "brazil", "type": "cpf", "length": 11, "format": "###.###.###-##" },
+    { "region": "brazil", "type": "cnpj", "length": 14, "format": "##.###.###/####-##" },
+
+    { "region": "brazil", "type": "cep", "length": 8, "format": "#####-###" },
+
+    { "region": "brazil", "type": "phone", "length": 8, "format": "####-####" },
+    { "region": "brazil", "type": "phone", "length": 9, "format": "9####-####" },
+    { "region": "brazil", "type": "phone", "length": 10, "format": "(##) ####-####" },
+    { "region": "brazil", "type": "phone", "length": 11, "format": "(##) 9####-####" },
+    { "region": "brazil", "type": "phone", "length": 11, "format": "0800 ### ####" }
+]
