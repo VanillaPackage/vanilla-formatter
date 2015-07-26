@@ -70,6 +70,7 @@ class PhoneFormatterTest extends PHPUnit_Framework_TestCase
             [ "91111-2222", "911112222", "phone", "brazil" ],
             [ "(00) 1111-2222", "0011112222", "phone", "brazil" ],
             [ "(00) 91111-2222", "00911112222", "phone", "brazil" ],
+            [ "0800 111 222", "0800111222", "phone", "brazil" ],
             [ "0800 111 2222", "08001112222", "phone", "brazil" ],
 
             // General: invalid types.
