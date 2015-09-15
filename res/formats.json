@@ -9,6 +9,13 @@
 
     { "region": "brazil", "type": "cep", "length": 8, "format": "#####-###" },
 
+    { "region": "brazil", "type": "ie", "length": 8, "format": "#.###.###-#" },
+    { "region": "brazil", "type": "ie", "length": 9, "format": "##.###.###-#" },
+    { "region": "brazil", "type": "ie", "length": 10, "format": "##.###.###-##" },
+    { "region": "brazil", "type": "ie", "length": 11, "format": "###.###.###-##" },
+    { "region": "brazil", "type": "ie", "length": 12, "format": "###.###.###.###" },
+    { "region": "brazil", "type": "ie", "length": 13, "format": "##.###.###/###-##" },
+
     { "region": "brazil", "type": "phone", "length": 8, "format": "####-####" },
     { "region": "brazil", "type": "phone", "length": 9, "format": "9####-####" },
     { "region": "brazil", "type": "phone", "length": 10, "format": "0800 ### ###" },

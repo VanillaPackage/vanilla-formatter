@@ -61,6 +61,7 @@ class Formatter
         $valueNormalizedLength = strlen($valueNormalized);
 
         // Replace all "#" characters with normalized value.
+        /** @noinspection ForeachInvariantsInspection */
         for ($i = 0; $i < $valueNormalizedLength; $i++) {
             $matchedFormatNormalized = preg_replace('/#/', $valueNormalized[$i], $matchedFormatNormalized, 1);
         }
